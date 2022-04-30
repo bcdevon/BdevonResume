@@ -1,0 +1,88 @@
+:root{
+  /*tan*/
+  --color1:#F7E0D4;
+  /*reddish*/
+  --color2:#7D340D;
+  /*bluish*/
+  --color3:#347B98;
+  /*light blue*/
+  --color4:#1489B8;
+  /*black*/
+  --color5:#092834;
+}
+body {
+  background-color: var(--color1);
+  color: var(--color2);
+    font-family: sans-serif;
+    letter-spacing: 1px;
+  }
+  h1 {
+    color: var(--color5);
+    font-style: italic;
+    font-variant:small-caps;
+  }
+  hr {
+    color: var(--color5);
+  }
+  #skillsList {
+    columns: 3;
+  }
+
+.sectionHeader {
+  color: var(--color3);
+  font-style: italic;
+  font-variant: small-caps;
+}
+.employerName {
+  color: var(--color4);
+  font-variant:small-caps;
+}
+.positionTitle {
+  color: var(--color4);
+  font-weight: bold;
+  font-style: italic;
+}
+/* this is a css rule. Table is an element selector because it is referring to
+an html element. Everything within the curly brackets
+is a declaration which consists of a css property and then a value
+separated by a colon and ending with a semicolon.
+The table rule has 5 declarations and table is the selector */
+table {
+  margin: 14px;
+  border-collapse: separate;
+  border-spacing: 7px;
+  padding: 7px;
+  width: 98%;
+
+}
+caption{
+  font-style: italic;
+  color: gray;
+  letter-spacing: 3px;
+  text-decoration: underline;
+  margin-bottom: 7px;
+}
+td {
+  border: 1px solid var(--color4);
+  vertical-align: top;
+  padding-left: 7px;
+  color: var(--color5);
+}
+th{
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: var(--color4);
+}
+#myForm {
+  border: 2px dashed var(--color5);
+  width: 100%;
+}
+td.noborder{
+  border: none;
+  vertical-align: top;
+  padding: 7px;
+  color: var(--color5);
+  font-family: verdana, sans-serif;
+  font-variant: small-caps;
+}
