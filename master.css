@@ -42,11 +42,6 @@ body {
   font-weight: bold;
   font-style: italic;
 }
-/* this is a css rule. Table is an element selector because it is referring to
-an html element. Everything within the curly brackets
-is a declaration which consists of a css property and then a value
-separated by a colon and ending with a semicolon.
-The table rule has 5 declarations and table is the selector */
 table {
   margin: 14px;
   border-collapse: separate;
