@@ -1,6 +1,6 @@
 :root{
   /*tan*/
-  --color1:#F7E0D4;
+  --color1:#4a6597;
   /*reddish*/
   --color2:#7D340D;
   /*blue*/
@@ -11,13 +11,11 @@
   --color5:#092834;
 }
 body {
-  background-color: var(--color1);
   color: var(--color2);
     font-family: sans-serif;
     letter-spacing: 1px;
   }
   h1 {
-    color: var(--color5);
     font-style: italic;
     font-variant:small-caps;
   }
@@ -80,4 +78,14 @@ td.noborder{
   color: var(--color5);
   font-family: verdana, sans-serif;
   font-variant: small-caps;
+}
+.intro{
+  background-color: var(--color1);
+  color: aliceblue;
+}
+.about{
+    background-color: var(--color1);
+    color: aliceblue;
+    font-style: italic;
+    font-variant: small-caps;
 }
