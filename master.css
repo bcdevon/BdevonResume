@@ -27,7 +27,7 @@ body {
   }
 
 .sectionHeader {
-  color: var(--color3);
+  color: var(--color1);
   font-style: italic;
   font-variant: small-caps;
 }
