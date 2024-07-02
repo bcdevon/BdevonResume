@@ -1,0 +1,20 @@
+# Ignore build artifacts if you're using a static site generator
+/_site/
+/build/
+
+# Ignore any local development environment files
+.env
+
+# Ignore any sensitive or personal files
+/secrets.json
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore npm package lock file if applicable
+package-lock.json
+
+# Ignore any IDE or editor specific files
+.idea/
+.vscode/
+*.iml
